@@ -1,0 +1,21 @@
+:root{
+    --main-white:#f0f0f0;
+    --main-red:#be3144;
+    --main-blue:#45567d;
+    --main-gray:#303841;
+}
+body{
+    margin:0;
+    font-family:"Poppins",sans-serif;
+}
+
+#navbar{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;position:sticky;
+    height:70px;background-color:var(--main-red);
+    box-shadow:0 2px 0 rgba(0,0,0,0.4);
+    top:0;
+    z-index:10;
+    padding-right:20px
+}
