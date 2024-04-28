@@ -375,13 +375,13 @@ html {
         transform:scale(1.1);
       }
         .contact-section{
-        height: 750px;
+        height: 700px;
       }
       footer{
        
         justify-content:center;
         width: 100vw;
-        padding: 50px;
+        padding: 100px;
         
       }
      
