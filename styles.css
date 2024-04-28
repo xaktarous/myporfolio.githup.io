@@ -370,7 +370,7 @@ html {
       }
       footer p{
         
-         font-size: 6px;
+         font-size: 10px;
         font-weight: 100;
         transform:scale(1.1);
       }
@@ -379,7 +379,8 @@ html {
       }
       footer{
        
-        justify-content:space-between;
+        justify-content:center;
+        width: 100vw;
       }
      
   }
