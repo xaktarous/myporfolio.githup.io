@@ -106,7 +106,7 @@ html {
   margin-top:30px;
  
 }
-.my-project a{
+.my-project .project-tile{
   display:flex;
   flex-direction:column;
   width:clamp(100px,95%,400px);
@@ -158,10 +158,13 @@ html {
 .project-tile img{
  object-fit: cover;
  width:100%;
- height:84.5%;
-
+ height: 100%;
+ margin: 0;
 }
-
+.project-tile a{
+  text-decoration: none;
+  
+}
 
 #suite{
   display:flex;
@@ -273,8 +276,8 @@ html {
         height: 550px;
       }
       .project-tile img{
-        height:90%;
-       
+        height: 100%;
+        
        }
        .contact-section i{
         transform:scale(1.1);
@@ -285,7 +288,7 @@ html {
     .my-project{
         grid-template-columns:1fr 1fr;
       }
-      .my-project a{
+      .my-project .project-tile{
         width:150px;
         height:200px;  
       }
